@@ -1,0 +1,13 @@
+testCases/BaseClass.class
+testCases/safariTest.class
+pageObjects/LoginPage.class
+pageObjects/MyAccountPage.class
+utilities/ExtentReportmanager.class
+utilities/DataProviders.class
+utilities/ExcelUtility.class
+testCases/TC02_LoginTest.class
+pageObjects/homePage.class
+testCases/TC01_AccountRegistration.class
+pageObjects/BasePage.class
+testCases/TC03_LoginDDT.class
+pageObjects/AccountRegistrationPage.class
