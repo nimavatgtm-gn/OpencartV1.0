@@ -16,7 +16,9 @@ public class homePage extends BasePage {
 	WebElement InkRegister;
 	@FindBy(linkText = "Login")
 	WebElement linkLogin;
-		
+	@FindBy(xpath = "//div[@class='swiper-pagination slideshow0 swiper-pagination-clickable swiper-pagination-bullets']//span[@class='swiper-pagination-bullet swiper-pagination-bullet-active']")
+	WebElement blt;
+	
 	public void clickMyAccount()
 	{
 	InkMyaccount.click();
@@ -27,4 +29,10 @@ public class homePage extends BasePage {
 	
 	public void clickLogin()
 	{linkLogin.click();}
+	
+	public boolean isHomepageDisp()
+	{
+		boolean disp=blt.isDisplayed();
+		return disp;
+	}
 }

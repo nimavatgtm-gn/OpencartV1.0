@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
 <suite name="Suite">
 
 <listeners>
@@ -15,8 +16,9 @@
 
     <classes>
       <!-- <class name="testCases.TC01_AccountRegistration"/>
-      <class name="testCases.TC02_LoginTest"/>-->
-       <class name="testCases.TC03_LoginDDT"/>
+      <class name="testCases.TC02_LoginTest"/>
+       <class name="testCases.TC03_LoginDDT"/> -->
+        <class name="testCases.TC004_Logout"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
